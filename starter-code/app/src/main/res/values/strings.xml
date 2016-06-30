@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Views Lab</string>
+    <string name="toastText">You clicked on the button below views number </string>
 </resources>
