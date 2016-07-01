@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/administrator/Desktop/Projects/Android-Views-Lab/starter-code/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="86c0e1daeae75cc0521f504a98df35e2c88ebfd6">
+        <dex dex="/Users/administrator/Desktop/Projects/Android-Views-Lab/starter-code/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_29c3206abae4c9e701732a791cc565a172631f59/classes.dex" />
+    </item>
+
+</items>

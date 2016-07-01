@@ -1,5 +1,6 @@
 package ga.demo.viewslab;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -83,6 +84,19 @@ public class MainActivity extends AppCompatActivity {
             tempButton1.setOnClickListener(ocl);
             layout.addView(tempButton1);
         }
+
+
+        //A Less repetitive way of doing this could possibly be seen here in the future. That way would be a ListView implementation
+        Button activitySwitchButton = (Button) findViewById(R.id.switch_button);
+        View.OnClickListener switchActivityListener = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent switchIntent = new Intent(view.getContext(), TestListActivity.class);
+                startActivity(switchIntent);
+            }
+        };
+
+        activitySwitchButton.setOnClickListener(switchActivityListener);
 
 
         //Put your Java code in here
